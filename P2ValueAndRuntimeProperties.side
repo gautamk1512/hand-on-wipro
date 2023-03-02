@@ -1,0 +1,167 @@
+{
+  "id": "c1a5d741-e205-4acd-bff6-30287fb2810f",
+  "version": "2.0",
+  "name": "P2ValueAndRuntimeProperties",
+  "url": "https://petstore.octoperf.com/actions/Catalog.action",
+  "tests": [{
+    "id": "f675b799-5779-4f94-acbf-396a2be2259f",
+    "name": "Untitled",
+    "commands": [{
+      "id": "e2fb7c02-22e3-47db-896f-fbc76d5c5001",
+      "comment": "",
+      "command": "open",
+      "target": "https://petstore.octoperf.com/actions/Catalog.action",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47a694cf-6d92-4fd3-8223-6119d273bd55",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "817x528",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4d2609a-181b-49b8-9c74-1798f4273efb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#QuickLinks > a:nth-child(1) > img",
+      "targets": [
+        ["css=#QuickLinks > a:nth-child(1) > img", "css:finder"],
+        ["xpath=//div[@id='QuickLinks']/a/img", "xpath:idRelative"],
+        ["xpath=//div[4]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8368a50c-484e-4c07-9446-ebed16e32c85",
+      "comment": "",
+      "command": "storeText",
+      "target": "//*[@id=\"Catalog\"]/h2",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "1959ff20-000a-4e28-a7eb-9bd54ba858dd",
+      "comment": "",
+      "command": "echo",
+      "target": "${x}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3001d035-2be2-4be2-b556-cb560e3ada4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(3) > img",
+      "targets": [
+        ["css=a:nth-child(3) > img", "css:finder"],
+        ["xpath=//div[@id='QuickLinks']/a[2]/img", "xpath:idRelative"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0349258-2620-452d-ba15-87aed1e6409e",
+      "comment": "",
+      "command": "storeText",
+      "target": "//*[@id=\"Catalog\"]/h2",
+      "targets": [],
+      "value": "y"
+    }, {
+      "id": "1ab4f920-068e-483d-a005-bd0aa280a74e",
+      "comment": "",
+      "command": "echo",
+      "target": "${y}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "883b19d7-7f02-4b9c-a320-247e4cdd23b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(5) > img",
+      "targets": [
+        ["css=a:nth-child(5) > img", "css:finder"],
+        ["xpath=//div[@id='QuickLinks']/a[3]/img", "xpath:idRelative"],
+        ["xpath=//a[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09bd1b7b-8e8b-40a0-8419-bc29cee18753",
+      "comment": "",
+      "command": "storeText",
+      "target": "//*[@id=\"Catalog\"]/h2",
+      "targets": [],
+      "value": "z"
+    }, {
+      "id": "36b2f597-defd-43d8-8a50-aacdcc047e6d",
+      "comment": "",
+      "command": "echo",
+      "target": "${z}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f40d258b-ae6d-4288-9e5f-d58de9858af1",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(7) > img",
+      "targets": [
+        ["css=a:nth-child(7) > img", "css:finder"],
+        ["xpath=//div[@id='QuickLinks']/a[4]/img", "xpath:idRelative"],
+        ["xpath=//a[4]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4091952-0b12-4cfe-aea9-f74e351aa160",
+      "comment": "",
+      "command": "storeText",
+      "target": "//*[@id=\"Catalog\"]/h2",
+      "targets": [],
+      "value": "a"
+    }, {
+      "id": "f8150422-2b89-4086-ba24-9bafb899d152",
+      "comment": "",
+      "command": "echo",
+      "target": "${a}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39b1f3d2-c8d2-4f14-a93c-fa63ce4470d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(9) > img",
+      "targets": [
+        ["css=a:nth-child(9) > img", "css:finder"],
+        ["xpath=//div[@id='QuickLinks']/a[5]/img", "xpath:idRelative"],
+        ["xpath=//a[5]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed108ddc-06f2-4467-b2c5-52b4921e2ccd",
+      "comment": "",
+      "command": "storeText",
+      "target": "//*[@id=\"Catalog\"]/h2",
+      "targets": [],
+      "value": "b"
+    }, {
+      "id": "b9858c0e-4494-485b-ac3b-69697d797a09",
+      "comment": "",
+      "command": "echo",
+      "target": "${b}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86a7af02-e928-4c59-9ae9-1a0f82cfb97e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "61194ab1-8816-49fb-a589-633cdf41bfb5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f675b799-5779-4f94-acbf-396a2be2259f"]
+  }],
+  "urls": ["https://petstore.octoperf.com/actions/Catalog.action"],
+  "plugins": []
+}
